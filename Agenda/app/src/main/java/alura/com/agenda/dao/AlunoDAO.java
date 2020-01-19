@@ -29,7 +29,7 @@ public class AlunoDAO {
     }
 
     private Aluno buscaAlunoPeloId(Aluno aluno) {
-        Aluno alunoEncontrado = null;
+        //Aluno alunoEncontrado = null;
         for (Aluno a:
                 alunos) {
             if (a.getId() == aluno.getId()) {
